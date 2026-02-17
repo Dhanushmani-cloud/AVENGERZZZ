@@ -1,0 +1,29 @@
+{
+  "name": "Script",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the script"
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of character names"
+    },
+    "situation": {
+      "type": "string",
+      "description": "The situation or scene description"
+    },
+    "content": {
+      "type": "string",
+      "description": "The generated script content"
+    }
+  },
+  "required": [
+    "title",
+    "content"
+  ]
+}
